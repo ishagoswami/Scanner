@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #03203c;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 100px 10px 0 10px;
+}
+
+#search {
+  width: 100%;
+  font-size: 18px;
+  padding: 15px 19px;
+  border: 1px solid #46b2e0;
+}
+
+#list {
+  list-style: none;
+}
+
+#list li {
+  border: 1px solid #46b2e0;
+  padding: 15px;
+  background-color: rgb(207, 200, 200);
+  display: block;
+}
+#list li:hover {
+  background-color: #1faa59;
+}
